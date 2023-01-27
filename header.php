@@ -40,7 +40,7 @@
 				<div class="navbar-nav">
 					<?php
 						wp_nav_menu( array (
-							'theme_location'    => 'primary-menu',
+							'theme_location'    => 'menu-header',
 							'depth'             => 2,
 							'container'         => 'div',
 							'container_class'   => 'collapse navbar-collapse',

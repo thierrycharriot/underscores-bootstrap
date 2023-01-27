@@ -46,10 +46,17 @@ function underscores_bootstrap_setup() {
 		*/
 	add_theme_support( 'post-thumbnails' );
 
-	// This theme uses wp_nav_menu() in one location.
+	// https://developer.wordpress.org/reference/functions/add_theme_support/
+	// add_theme_support( string $feature, mixed $args ): void|false
+	// Registers theme support for a given feature.
+	add_theme_support( 'menus' );
+
+	// https://developer.wordpress.org/reference/functions/register_nav_menus/
+	// register_nav_menus( string[] $locations = array() )
+	// Registers navigation menu locations for a theme.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'underscores-bootstrap' ),
+			'menu-header' => esc_html__( 'Menu Header', 'underscores-bootstrap' ),
 		)
 	);
 
@@ -218,10 +225,10 @@ add_action( 'after_setup_theme', 'register_navwalker' );
  * @return void
  */
 function underscores_bootstrap_comment_fields ( $fields ) {
-	# https://developer.wordpress.org/reference/hooks/comment_form_default_fields/
-	# apply_filters( 'comment_form_default_fields', string[] $fields )
-	# Filters the default comment form fields.
-	#var_dump($fields);
+	// https://developer.wordpress.org/reference/hooks/comment_form_default_fields/
+	// apply_filters( 'comment_form_default_fields', string[] $fields )
+	// Filters the default comment form fields.
+	//var_dump($fields);
 	$fields['author'] = '<div class="form-group mb-3"><label for="author">Auteur</label><input type="text" class="form-control" name="author"></div>';
 	$fields['email'] = '<div class="form-group mb-3"><label for="email">Email</label><input type="email" class="form-control" name="email"></div>';
 	$fields['url'] = '<div class="form-group mb-3"><label for="url">Site Web</label><input type="url" class="form-control" name="url"></div>';
