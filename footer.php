@@ -12,7 +12,7 @@
 ?>
 	<a href="#page" class="btn btn-warning" id="up-button" title="Clic pour remonter en haut de cette satanée page">Go back up</a>
 
-	<footer id="colophon" class="site-footer  bg-success text-white">
+	<footer id="colophon" class="site-footer text-white" style="background-color: #795548;">
 
 		<div class="container">
 				<div class="row">

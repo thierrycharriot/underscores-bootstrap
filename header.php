@@ -30,7 +30,7 @@
 
 	<header id="masthead" class="site-header">
 
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="site-navigation" class="main-navigation">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0277bd;" id="site-navigation" class="main-navigation">
 			<div class="container-fluid">
 			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

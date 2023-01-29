@@ -1,8 +1,8 @@
 # Underscore Bootstrap
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.jpg)
 
-> **Project description**: Integration of the css framework [bootstrap](https://getbootstrap.com/)  in the starter theme [Underscores](https://underscores.me/).
+> **Project description**: Integration of the css framework [bootstrap](https://getbootstrap.com/) in the starter theme [Underscores](https://underscores.me/).
 
 ## Installation
 
@@ -16,4 +16,4 @@
 [makeareadme](https://www.makeareadme.com/)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[Unlicense](https://choosealicense.com/licenses/unlicense/)
