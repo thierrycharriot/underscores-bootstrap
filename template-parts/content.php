@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				underscores_bootstrap_posted_on();
-				underscores_bootstrap_posted_by();
+					underscores_bootstrap_posted_on();
+					underscores_bootstrap_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
